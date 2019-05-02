@@ -1,0 +1,209 @@
+JarlScript draft
+----------------
+
+Language
+--------
+
+- This language will be dynamically strongly typed and interpreted. The files will have the ".jarl" extension.
+- Ducktypinginsh Python style.
+- All the code must be hosted in a GitHub public repository.
+- Maybe create a wep app with an online interpreter?
+- Sublime Text linter
+- Sublime Text syntax highlighting
+
+Roadmap
+--------
+
+First iteration
+---------------
+Boolean algebra.
+- Add boolean types.
+- Logical operations:
+	- and, or, not
+- Parenthesis grouping.
+
+Second iteration
+---------------
+Calculator.
+- Add integer and float types.
+- Arithmetic operations
+	- add, sub, div, multiply, module, increment, decrement.
+
+Third iteration
+----------------
+Symbol table: create an in memory structure that saves all the user created variables.
+
+Fourth iteration
+---------------
+- Add input/output.
+- Operations:
+	- input and output.
+
+Fifth iteration
+----------------
+- Add strings.
+- String functions:
+	-  concatenate, substract, replace and compare.
+	- different types concatenation: string + <integer|boolean|float>
+
+Sixth iteration
+---------------
+- Add set type.
+- Operations:
+	- difference, union, intersection, complement.
+
+Seventh iteration
+-----------------
+- Add list type.
+- Operations:
+	- length, update, delete, concat, compare, min, max.
+
+Eighth iteration
+----------------
+- Add try/catch exceptions.
+- Exceptions
+	- Divide by zero.
+	- Non declared list/set index.
+	- Non declared variable.
+	- Type assignation missmatch.
+
+Ninth iteration
+---------------
+- Add loops.
+- for and while loops.
+
+Tenth iteration
+---------------
+- Add bifurations.
+
+Eleventh iteration
+------------------
+- Add comments: one line and multiline.
+
+Twelfth iteration
+-----------------
+- Add functions
+
+Thirteenth iteration
+--------------------
+- Include code from other files.
+
+Syntax
+------
+
+Script start and finish
+-----------------------
+>>> al ataquer
+// code
+>>> hasta luego Lucas
+
+Variables
+---------
+>>> fistro var_1 = 1;
+>>> fistro var_2 = 'Shurmano';
+
+Functions
+---------
+>>> fistro pecador aFunction
+>>> al ataquerr
+>>> 	// code
+>>> hasta luego lucas
+
+I/O
+---
+- Input:
+>>> ¿comor?:
+// User input
+
+- Output:
+>>> pecador: 'This is an output'
+>>> 'This is an output'
+
+Loops
+-----
+
+- for
+a güan: <init>, a peich: <condition>, agromenauer: <increment/decrement>
+>>>	a güan: fistro ajare = 0, a peich: ajare < 20, agromenaguer: ajare++
+>>> 	al ataquer
+>>> 		// code
+>>>		hasta luego lucas
+
+- while
+a can de mor: <condition>
+>>> fistro ajare = 0
+>>> a can de mor: ajare < 10
+>>> al ataquer
+>>> 	ajare++
+>>>		pecador ajare
+>>> hasta luego lucas
+
+Bifurcation
+-----------
+
+cuidadin: <condition>
+no puede se
+
+>>> fistro ajare = 20
+>>> cuidadin: ajare == 20
+>>>	al ataquer
+>>> 	pecador: 'Ajare: ' + ajare
+>>> hasta luego lucas
+>>> no puede se
+>>>	al ataquer
+>>>		pecador: 'Norl Ajare'
+>>> hasta luego lucas
+
+Return to main program
+----------------------
+
+de la pradera <variable>
+
+>>> fistro pecador incremental(ajare)
+>>> al ataquer
+>>>		de la pradera ajare++
+>>> hasta luego lucas
+
+Exceptions
+----------
+
+>>> al ataquer
+>>> 	te das cuen
+>>> 		// code
+>>> 	no puedor <exception>:
+>>> 		al ataquer
+>>> 			// exception code
+>>> 		hasta luego lucas
+>>> hasta luego lucas
+
+Full example
+------------
+
+// main
+>>> al ataquer
+>>> fistro ajare = 1
+>>> fistro ajare_peich = 200
+
+>>> fistro pecador increment: ajare
+>>> al ataquer
+>>>		de la pradera ajare++
+>>> hasta luego lucas
+
+>>> a can de mor: ajare < ajare_peich
+>>>		al ataquer
+>>>		ajare = increment(ajare)
+>>>		cuidadin: ajare % 2 == 0
+>>>			al ataquer
+>>>				pecador: 'Ajare even'
+>>>			hasta luego lucas
+>>>		no puede se
+>>>			al ataquer
+>>>				pecador: 'Ajare odd'
+>>>			hasta luego lucas
+>>> hasta luego lucas
+>>> hasta luego lucas
+
+Exception messages
+------------------
+In every exception a Chiquito's famous joke will be displayed.
+
